@@ -1,0 +1,24 @@
+{
+  "name": "vuejslive-workshop",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vee-validate/i18n": "^4.5.3",
+    "@vee-validate/rules": "^4.5.3",
+    "validator": "^13.6.0",
+    "validator.js": "^2.0.4",
+    "vee-validate": "^4.5.4",
+    "vue": "^3.2.16",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
